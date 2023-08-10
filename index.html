@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table 2</title>
+</head>
+<style>
+    table{
+        border: 1px solid black;
+        width: 50%;
+        height: 400px;
+        border-collapse: collapse;
+       
+
+    }
+    td {
+        text-align: center;
+  padding: 5px;
+  border: 3px solid black;
+  align-content: center;
+}
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+tr:nth-child(odd) {
+  background-color: orangered;
+}
+</style>
+<body>
+    <h1>Table Layout Task 2</h1>
+  <table>
+    <tr>
+        <td colspan="6">1</td>
+    </tr>
+    <tr>
+        <td colspan="2">2</td>
+        <td colspan="2" rowspan="2">3</td>
+        <td colspan="2">4</td>
+    </tr>
+    <tr>
+        <td colspan="2">5</td>
+        <td colspan="2">6</td>
+    </tr>
+    <tr>
+        <td colspan="3">7</td>
+        <td colspan="3">8</td>
+    </tr>
+    </table>
+</body>
+</html>
